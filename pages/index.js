@@ -4,13 +4,14 @@ import Link from 'next/link'
 const Index = () => {
   return (
     <div>
-      <h1>HELLO WORLD NEXT APP</h1>
+      <h1>HELLO WORLD</h1>
+      <h2>HOME</h2>
       <ul>
         <li>
-          <Link href="/about">Sobre</Link>
+          <Link href="/category/products">Produtos</Link>
         </li>
         <li>
-          <Link href="/category/products">Produtos</Link>
+          <Link href="/about">Sobre</Link>
         </li>
       </ul>
     </div>

@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 const Products = () => {
   const router = useRouter()
@@ -6,6 +7,11 @@ const Products = () => {
   return (
     <div>
       <h1>Produtos</h1>
+      <ul>
+        <li>
+          <Link href="/">Home</Link>
+        </li>
+      </ul>
     </div>
   )
 }
